@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap");
+body
+{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+    
+    font-family: 'Roboto', sans-serif;
+}
+.back{
+  /*  background-image: url("C:\Users\nagpa\OneDrive\Desktop\4..jpeg");*/
+  /*  background-image: url("file:///C:/Users/nagpa/OneDrive/Desktop/4..jpeg"); */
+    background-image: url("file:///C:/Users/nagpa/Downloads/2..webp");
+    height: 200vh;
+    width: 100%;
+    background-size: cover;
+}
+
+/* .nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px 20px;
+width: 110px;
+height: 50px;
+text-align: center;
+background-color: rgb(97, 84, 84);
+z-index: 1px;
+} */
+.nav{
+    display: flex;
+    
+    /* background-color: rgb(97,84,84); */
+    /* justify-content: space-between; */
+    
+}
+.box1 :hover{
+    color: crimson;
+    transition:2s;
+
+}
+.box1{
+    display: flex;
+    /* background-color: yellow; */
+    width: 1000px;
+    /* margin-left: 120px; */
+    justify-content: space-evenly;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.box1 a{
+    text-decoration: none;
+    color: white;
+}
+.box1 a:hover {
+    text-decoration: underline overline crimson; /* Add underline and overline on hover */
+}
+.logo
+{
+    color: antiquewhite;
+    font-size: 50px;
+    letter-spacing: 2px;
+    cursor: pointer;
+
+}
+/* .logo h2{ */
+
+span{
+    color: crimson;
+    
+}
+/* .nav a{
+
+    padding-left: 60px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 0 30px;
+    background-color: yellow;
+} */
+/* .nav a:hover{
+    color: crimson;
+    transition:2s;
+} */
+.content{
+    position: relative;
+    top: 10%;
+    /* left: 10%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* .hello h4{
+    height: 200px;
+    width: 300px;
+    display: inline;
+    padding-left: 500px;
+} */
+.content h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 60px;
+}
+.content h2{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.content h3{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.content h4{
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+
+}
+.btn{
+    display: inline-block;
+    padding: 14px;
+    color: rgb(249, 248, 237);
+    background:crimson;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 1s ease-in-out;
+    text-decoration: none;
+}
+.btn :hover{
+    transform: translate(5px);  /*   */
+    background: transparent;
+    color: rgb(78, 75, 75);
+
+}
+.text h2{
+    color: rgb(229, 223, 223);
+    font-size: 60px;
+    text-transform: capitalize;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+    
+    
+    /* top: 20%; */
+    /* left: 40%; */
+    /* margin-right: 400px; */
+    /* position: relative; */
+    padding-top: 100px;
+    padding-left: 750px;
+    /* word-spacing: 2px; */
+}
+.text h3{
+    color: aliceblue;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    padding-left: 780px;
+    text-decoration: capitalize;
+
+    
+
+}
+.image5{
+    height:200px;
+    width: 400px;
+    display: inline;
+    border-radius: 500px;
+    display: flex;
+}
+
+span{
+    color: crimson;
+}
+.text h4{
+    font-size: 20px;
+
+    padding-left: 650px;
+}
+.hello{
+    width: 1200px;
+    display: flex;
+    }
+.description{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    word-spacing: 5px;
+    width: 1000px;
+    top: 100px;
+    padding: 40px;
+    padding-left: 50px;
+    right: 50px;
+
+
+}
+.image {
+   
+    width: 15px;  /* Set the width to 30% */
+    height: auto; /* Maintain the aspect ratio */
+ /* Set a maximum height if needed */
+    margin-right: 20px; /* Add some right margin for spacing */
+}
+
+.about {
+    overflow: hidden;
+    position: absolute;
+
+    padding-right: 20px;
+    padding-bottom: 20px;
+    /* align-items: center;  */
+    /* Clear the float to contain the height of the floated image */
+}
+.text {
+    padding-left: 20px; /* Adjust padding for text */
+}
+/* .home-sci {
+    position: absolute;
+    bottom: 400px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    top: 220px;
+    right: 220px;
+    align-items: end;
+  } */
+
+.image2{
+    height: 320px;
+    width: 550px;
+    padding: 30px;
+}
+    .bi-linkedin{
+    color: rgb(236, 238, 238);
+    }
+.bi-instagram{
+    color: aliceblue;
+}
+.bi-facebook{
+    color: bisque;
+}
+   .home-sci {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+ 
+  .home-sci a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent; 
+    border: 2px solid crimson;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  /*
+  .home-sci a:hover {
+    color: rgb(236, 232, 233);
+  }
+  
+  .home-sci a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: white;
+    z-index: 1;
+    transition: 0.5s;
+  }
+  
+  .home-sci a:hover::before {
+    width: 100%;
+  } 
+
+
+
+
+ */
