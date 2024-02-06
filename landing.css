@@ -1,0 +1,192 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  color: white;
+}
+body{
+ /* background-image: url("C:/Users/nagpa/OneDrive/Desktop/3..png");*/
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+section{
+  width: auto;
+  height:1150px;
+  background-image: url("C:/Users/nagpa/OneDrive/Desktop/red-tape-shoes16.png");
+  background-size: cover;
+  /* background-color: yellow; */
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0px;
+  border-bottom: 0.5px  solid rgb(16, 15, 15);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+span{
+  color: red;
+}
+#head-name{
+  font-size:  50px;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+  padding-right: 30px;
+  padding-left: 40px;
+}
+.comman-name{
+  text-decoration: none;
+  color: rgb(20, 19, 19);
+}
+
+.comman-name:hover{
+  color: black;
+  text-decoration:underline black;
+}
+#active{
+  color: black;
+  
+}
+#active:hover{
+  color: white;
+  text-decoration: underline white;
+}
+#get-in-touch{
+  border: 2px solid rgb(24, 17, 17);
+  padding: 20px;
+  background-color: rgb(191, 188, 188);
+  border-radius: 20px;
+}
+#get-in-touch:hover{
+  background-color: transparent;
+  border: none;
+  text-decoration: none;
+}
+#Product{
+  position: absolute;
+  top: 280px;
+  font-size: 70px;
+  margin-left: 100px;
+  color: rgba(0, 0, 0, 0.77);
+}
+#Best-Place{
+  position: absolute;
+  top: 430px;
+  margin-left: 100px;
+  color:rgba(35, 35, 36, 0.896);    
+}
+#get-started{
+  background-color: black;
+  position: absolute;
+  margin-top:550px;
+  text-decoration: none;
+  margin-left:100px;
+  font-size: 30px;
+  font-weight:900;
+  border: 2px solid white;
+  border-radius: 20px;  
+  padding: 20px; 
+}
+#get-started:hover{
+  color: black;
+  background-color: white;
+  border:3px solid black;
+  border-radius: 20px;
+}
+#Learn-More{
+  background-color: transparent;
+  position: absolute;
+  margin-top: 550px;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 900;
+  margin-left: 300px;
+  border: 2px solid rgb(15, 14, 14);
+  border-radius: 20px;
+  padding: 20px;
+  color: rgb(53, 54, 55);
+}
+.shop{
+  height: 50px;
+  /* width: 80px; */
+  font-size: large;
+  position: absolute;
+  bottom: 0px;
+  top: 170%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+
+}
+/* .image1 img{
+height: 330px;
+width: 300px;
+position: absolute;
+top: 100%;
+left: 10%; */
+
+
+
+/* } */
+.hi{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  top: 180%;
+  width: 1000px;
+  /* border-color: white; */
+  border: 3px solid rgb(248, 246, 246);
+  /* padding: 10px; */
+  padding: 25px 25px 0 25px;
+  border-radius: 10px;
+  color: black;
+  /* background-color: yellow; */
+  left: 280px;
+  /* border-color: white; */
+  
+
+}
+.hi1{
+
+  color: black;
+  width: 300px;
+
+}
+.hi1 img{
+  width: 100%;
+  height: 90%;
+}
+.shop{
+  font-size: 30px;
+}
+/* .area{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  top: 180%;
+  width: 1000px;
+  height: 1000px;
+  border-color: brown;
+  border: 3px solid red;
+  border-radius: 10px;
+  color: black;
+  /* background-color: yellow; */
+  /* left: 280px;
+  border-color: red; 
+} */
+.hello{
+  background-color:  red;
+  height: 500px;
+}
+#shop{
+  color: aliceblue;
+}
